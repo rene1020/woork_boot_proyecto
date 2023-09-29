@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Discord Clone</title>
+</head>
+<body>
+    <div class="server-list">
+        <!-- <div class="new-server" onclick="newServerForm()">+</div> -->
+        <div class="search-server"><img src="../img/search.svg" id="search-icon"></div>
+    </div>
+    <div id="profile-card" onclick="goToProfile()"></div>
+    <div class="create-server-screen">
+        <div class="container">
+            <h1 id="title">Crear Servidor</h1>
+            <form id="authForm">
+                <div class="form-field">
+                    <label for="server_name">Nombre:</label>
+                    <input class="input-box" type="text" name="server_name" id="server_name" required>
+                </div>
+    
+                <div class="form-field">
+                    <label for="server_description">Descripcion:</label>
+                    <input class="input-box" type="text" name="server_description" id="server_description">
+                </div>
+                <button type="submit" id="auth-btn">Crear</button>
+                <button id="cancel-btn">Cancelar</button>
+            </form>
+            <div id="message"></div>
+        </div>
+    </div>
+    <!-- <div class="channel-list"></div>
+    <div id="chat-box"></div> -->
+    <script src="../js/main.js"></script>
+</body>
+</html>

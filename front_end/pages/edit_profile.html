@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/auth.css">
+    <title>Edit Profile</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Editar Perfil</h1>
+        <form id="authForm">
+            <div class="form-field">
+                <label for="username">Username:</label>
+                <input class="input-box" type="text" name="username" id="username" required>
+            </div>
+            <div class="form-field">
+                <label for="image">Image:</label>
+                <input type="file" name="image" id="image">
+            </div>
+            
+            <button type="submit" id="auth-btn">Editar</button>
+        </form>
+    </div>
+
+    <script src="../js/edit-profile.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #282b31;
+}
+
+header {
+    background-color: #7289da;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.server-card {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    /* padding: 20px; */
+    width: 300px;
+    margin: 20px;
+}
+
+.server-info {
+    padding: 1rem;
+}
+
+.server-header {
+    background-color: #7289da;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.server-card h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.server-card p {
+    margin: 5px 0;
+}
+
+#sendBtn {
+    padding: 10px;
+    background-color: #556ecb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#sendBtn:hover, .server-btn:hover {
+    background-color: #677bc4;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.server-btn {
+    padding: 15px;
+    background-color: #556ecb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.invite-btn {
+    padding: 14px;
+    background-color: white;
+    color: #556ecb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: #556ecb solid 0.5px;
+}
+
+.invite-btn:hover {
+    background-color: #677BC4;
+}

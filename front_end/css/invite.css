@@ -1,0 +1,83 @@
+.perfil-card {
+    width: 300px;
+    background-color: #464b53;
+    color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.perfil-header {
+    background-color: #556ecb;
+    /* Color de fondo para la cabecera */
+    color: white;
+    /* Color del texto en la cabecera */
+    padding: 2px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.perfil-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+* {
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #282b31;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#username {
+    margin-bottom: 0;
+}
+
+#user_id {
+    color: rgb(233, 228, 228);
+    margin-top: 0.5rem;
+}
+
+p, h2, hr {
+    color: white;
+}
+
+#join {
+    background-color: #556ecb;
+    color: #FFFFFF;
+    border: none;
+    font-size: medium;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0.7rem;
+    float: right;
+}
+
+#join:hover {
+    background-color: #677BC4;
+}
+
+#return {
+    background-color: white;
+    color: #556ecb;
+    margin-right: 0.5rem;
+    border: none;
+    font-size: medium;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0.7rem;
+    float: right;
+}
+
+#return:hover {
+    background-color: #677BC4;
+}

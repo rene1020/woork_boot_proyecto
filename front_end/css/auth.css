@@ -1,0 +1,87 @@
+* {
+font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #457ef0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #4562e2;
+    padding: 2rem 10rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(107, 170, 230, 0.712);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    text-align: center;
+}
+
+.form-field {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#title {
+    color: white;
+    margin-top: 0%;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+    text-align: start;
+}
+
+.input-box {
+    padding: 0.5rem 3rem;
+    background-color: #81b8e6;
+    margin-bottom: 15px;
+    border: 1px solid #757070;
+    border-radius: 5px;
+    color:white;
+}
+
+a {
+    text-decoration: none;
+}
+
+#auth-btn {
+    background-color: #1a2a63;
+    color: #FFFFFF;
+    border: none;
+    font-size: medium;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2vh;
+    padding: 0.6rem 6.2rem;
+}
+
+#auth-btn:hover {
+    background-color: #677BC4;
+}
+
+
+.info-text {
+    color: #FFFFFF;
+    margin-bottom: 0%;
+}
+
+#message {
+    margin-top: 15px;
+    color: red;
+}

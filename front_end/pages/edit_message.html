@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/edit_message.css">
+    <title>Edit Message</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Editar Perfil</h1>
+        <form id="authForm">
+            <div class="form-field">
+                <label for="message_body">Mensaje:</label>
+                <input class="input-box" type="text" name="message_body" id="message_body" required>
+            </div>
+            <div id="buttons">
+                <button type="submit" id="edit-btn">Editar</button>
+                <button type="reset" id="return" formnovalidate>Volver</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="../js/edit-message.js"></script>
+</body>
+</html>
